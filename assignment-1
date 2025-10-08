@@ -1,1 +1,80 @@
+    1  ls = list command
+    2  mkdir tutedude
+    3  cd tutedude/ 
+    4  mkdir test_dir  =Create a directory named test_dir using mkdir
+    5  cd test_dir/
+    6  touch example.txt = Inside test_dir, create an empty file called example.txt.
+    7  mv example.txt renamed example.txt =Rename example.txt to renamed_example.txt using mv
+    8  ls
+    9  mv example.txt renamed_example.txt
+   10  ls
+   11  cat /etc/passwd = Use cat to display the contents of /etc/passwd.
+   12  cat /etc/passwd head -5 
+   13  head -5 cat /etc/passwd = Display only the first 5 lines of /etc/passwd using head.
+   14  tail -5 cat /etc/passwd 
+   15  tail --5 cat /etc/passwd
+   16  tail 5 cat /etc/passwd = Display only the last 5 lines of /etc/passwd using tail.
+   17  grep root cat /etc/passwd = Use grep to find all lines containing the word "root" in /etc/passwd.
+   18  cd ..
+   19  ls
+   20  zip test_dir/
+   21  apt install zip -y
+   22  zip test_dir/
+   23  ls
+   24  zip test_dir/.zip
+   25  ./test_dir/.zip
+   26  test_dir.zip
+   27  test_dir/.zip
+   28  zip -r test_dir/
+   29  zip -r test_dir/test_dir.zip
+   30  zip -r test_dir.zip test_dir.zip
+   31  zip -r test_dir.zip test_dir = Compress the test_dir directory into a file named test_dir.zip using zip.
+   32  ls
+   33  zip test_dir.zip  unzipped_dir
+   34  unzip test_dir.zip  unzipped_dir = Unzip test_dir.zip into a new directory named unzipped_dir.
+   35  ls
+   36  unzip test_dir.zip
+   37  ls
+   38  Unzip test_dir.zip
+   39  unzip -d test_dir.zip 
+   40  unzip --help
+   41  unzip test_dir.zip
+   42  ls
+   43  unzip test_dir.zip unzipped_dir
+   44  ls
+   45  mv test_dir unzipped_dir =Unzip test_dir.zip into a new directory named unzipped_dir.
+   46  ls
+   47  wget https://example.com/sample.txt 
+   48  apt update -y && apt upgrade -y
+   49  wget https://example.com/sample.txt
+   50  apt install http -y
+   51  snap install http -y
+   52  snap install http 
+   53  wget https://example.com/sample.txt  = Use wget to download a file from a URL (e.g., https://example.com/sample.txt).
+
+   54  touch secure.txt
+   55  ls
+   56  cat secure.txt
+   57  ls
+   58  vim secure.txt 
+   59  ls
+   60  cat secure.txt 
+   61  chmod -r secure.txt = 
+   62  ls
+   63  cat secure.txt 
+   64  vim secure.txt 
+   65  vimvim 
+   66  vim secure.txt 
+   67  chmod + r secure.txt 
+   68  chmod +r secure.txt  =Create a file named secure.txt and change its permissions to read-only for everyone using chmod.
+   69  ls
+   70  cat secure.txt 
+   71  vim secure.txt 
+   72  cat secure.txt 
+   73  export MY_VAR="hello, linux!" =Use export to set a new environment variable called MY_VAR with the value "Hello, Linux!".
+
+   74  echo MY_VAR
+   75  echo $MY_VAR 
+   76  history
+
 
